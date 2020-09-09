@@ -269,46 +269,5 @@
 
     </RelativeLayout>
 
-<!--    <Button-->
-<!--        android:id="@+id/maintain_products_btn"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="42dp"-->
-<!--        android:layout_above="@+id/check_orders_btn"-->
-<!--        android:layout_marginLeft="20dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:layout_marginBottom="11dp"-->
-<!--        android:background="@color/colorPrimaryDark"-->
-<!--        android:fontFamily="@font/habibi"-->
-<!--        android:text="Maintain Products"-->
-<!--        android:textColor="#ffffff"-->
-<!--        android:textSize="20sp" />-->
-
-<!--    <Button-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="42dp"-->
-<!--        android:layout_above="@+id/admin_logout_btn"-->
-<!--        android:layout_marginLeft="20dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:id="@+id/check_orders_btn"-->
-<!--        android:background="@color/colorPrimaryDark"-->
-<!--        android:text="Check New Orders"-->
-<!--        android:textColor="#ffffff"-->
-<!--        android:textSize="20sp"-->
-<!--        android:fontFamily="@font/habibi"/>-->
-<!--    <Button-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="42dp"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginLeft="20dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:id="@+id/admin_logout_btn"-->
-<!--        android:background="@color/colorPrimaryDark"-->
-<!--        android:text="Admin Logout"-->
-<!--        android:layout_marginTop="10dp"-->
-<!--        android:layout_marginBottom="20dp"-->
-<!--        android:textColor="#ffffff"-->
-<!--        android:textSize="20sp"-->
-<!--        android:fontFamily="@font/habibi"/>-->
-
 
 </RelativeLayout>

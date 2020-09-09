@@ -13,15 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activities.Admin.CheckNewProductActivity"></activity>
+        <activity android:name=".Activities.Admin.AdminHomeActivity" />
         <activity
             android:name=".Activities.Sellers.SellerHomeActivity"
-            android:label="@string/title_activity_seller_home"></activity>
+            android:label="@string/title_activity_seller_home" />
         <activity android:name=".Activities.Sellers.SellerLoginActivity" />
         <activity android:name=".Activities.Sellers.SellerRegistrationActivity" />
-        <activity
-            android:name=".Activities.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
+<!--        <activity-->
+<!--            android:name=".Activities.MainActivity"-->
+<!--            android:label="@string/title_activity_main"-->
+<!--            android:theme="@style/AppTheme.NoActionBar" />-->
         <activity android:name=".Activities.Buyer.ForgotPasswordActivity" />
         <activity android:name=".Activities.Admin.AdminMaintainProductsActivity" />
         <activity android:name=".Activities.Buyer.SearchActivity" />

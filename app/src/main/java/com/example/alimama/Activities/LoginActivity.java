@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.alimama.Activities.Admin.AdminHomeActivity;
 import com.example.alimama.Activities.Sellers.SellerCategoryActivity;
 import com.example.alimama.Activities.Buyer.DrawerActivity;
 import com.example.alimama.Activities.Buyer.ForgotPasswordActivity;
@@ -137,7 +138,7 @@ public class LoginActivity extends AppCompatActivity {
                                 {
                                     Toast.makeText(LoginActivity.this,"Logged in Successfully", Toast.LENGTH_SHORT).show();
                                     loadingBar.dismiss();
-                                    Intent intent = new Intent(LoginActivity.this, SellerCategoryActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, AdminHomeActivity.class);
                                     startActivity(intent);
                                 }
                                 else if(parentDBName.equals("Users"))

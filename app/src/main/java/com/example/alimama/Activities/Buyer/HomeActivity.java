@@ -122,7 +122,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-
     }
 
     @Override

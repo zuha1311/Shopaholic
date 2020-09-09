@@ -13,7 +13,7 @@ public class SellerCategoryActivity extends AppCompatActivity {
     private ImageView tshirts,sports,dresses,sweaters;
     private ImageView glasses,hats,wallets,shoes;
     private ImageView headphones,laptops,watches,mobiles;
-   // private Button admin_logout, admin_check_order,maintainProducts;
+
 
 
     @Override
@@ -32,37 +32,6 @@ public class SellerCategoryActivity extends AppCompatActivity {
         laptops=findViewById(R.id.laptops);
         watches=findViewById(R.id.watches);
         mobiles=findViewById(R.id.mobile);
-        /*admin_logout = findViewById(R.id.admin_logout_btn);
-        admin_check_order = findViewById(R.id.check_orders_btn);
-        maintainProducts = findViewById(R.id.maintain_products_btn);
-
-        maintainProducts.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(AdminCategoryActivity.this, HomeActivity.class);
-                intent.putExtra("Admin", "Admin");
-                startActivity(intent);
-
-
-            }
-        });
-
-        admin_logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(AdminCategoryActivity.this, MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-                finish();
-            }
-        });
-        admin_check_order.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent (AdminCategoryActivity.this, AdminNewOrdersActivity.class);
-                startActivity(intent);
-            }
-        });*/
 
 
         tshirts.setOnClickListener(new View.OnClickListener() {
