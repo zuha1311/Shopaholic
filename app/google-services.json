@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "764889437198",
+    "firebase_url": "https://chatbot-bhnawq.firebaseio.com",
+    "project_id": "chatbot-bhnawq",
+    "storage_bucket": "chatbot-bhnawq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764889437198:android:cb0b0f2f1508dccbc2185f",
+        "android_client_info": {
+          "package_name": "com.example.alimama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764889437198-8smr9qu8mio58qvkekdm1k54tguaefdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alimama",
+            "certificate_hash": "aaf7582d6dc8dc4a8022ed4f4d7f396f996b42e5"
+          }
+        },
+        {
+          "client_id": "764889437198-t6i8ari1289k4v1lqm3f6sd3e38d1q8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMx8bRBEPorXK_J4fWgFX42PVHsBGQnAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764889437198-t6i8ari1289k4v1lqm3f6sd3e38d1q8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

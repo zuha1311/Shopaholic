@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Sellers.SellerRegistrationActivity"
+    android:background="@drawable/side_nav_bar">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/seller"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_seller"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Registration"
+        android:gravity="center"
+        android:layout_below="@+id/img_seller"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/habibi"
+        android:textSize="24sp"
+        android:textColor="#4A974A"
+        android:id="@+id/title_seller"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/title_seller"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:id="@+id/seller_name"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/seller_name"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:id="@+id/seller_phonee"
+        android:layout_marginTop="15dp"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_below="@+id/seller_phonee"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:textSize="16sp"
+    android:id="@+id/seller_email"
+    android:layout_marginTop="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/seller_email"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:id="@+id/seller_pw"
+        android:layout_marginTop="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/seller_pw"
+        android:hint="Address"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:id="@+id/seller_address"
+        android:layout_marginTop="15dp" />
+    
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/seller_address"
+    android:background="#4A974A"
+    android:text="REGISTER"
+    android:fontFamily="@font/habibi"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/seller_register_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_register_btn"
+        android:background="#84CA84"
+        android:text="Already have an Account? Login"
+        android:fontFamily="@font/habibi"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/seller_already_account_btn"
+        />
+
+</RelativeLayout>

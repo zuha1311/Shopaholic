@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/habibi"
+            android:id="@+id/order_user_name"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:text="Mobile No."
+            android:textAlignment="viewEnd"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/habibi"
+            android:id="@+id/mobile_admin_order"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:id="@+id/order_total_price"
+            android:textStyle="bold"
+            android:fontFamily="@font/habibi"
+            android:layout_below="@+id/mobile_admin_order"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address, City"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:id="@+id/order_address"
+            android:textStyle="bold"
+            android:fontFamily="@font/habibi"
+            android:layout_below="@+id/order_total_price"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date,Time"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:id="@+id/order_dateTime"
+            android:textStyle="bold"
+            android:fontFamily="@font/habibi"
+            android:layout_below="@+id/order_address"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/admin_show_products_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_dateTime"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Show Products"
+            android:fontFamily="@font/habibi"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
