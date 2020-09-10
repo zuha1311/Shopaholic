@@ -25,6 +25,8 @@ public class AdminHomeActivity extends AppCompatActivity {
         maintainProducts = findViewById(R.id.maintain_products_btn);
         checkApprovedProducts = findViewById(R.id.check_approved_orders_btn);
 
+
+
         checkApprovedProducts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,7 +57,7 @@ public class AdminHomeActivity extends AppCompatActivity {
         admin_check_order.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent (AdminHomeActivity.this, AdminNewOrdersActivity.class);
+                Intent intent = new Intent (AdminHomeActivity.this, CheckNewProductActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,13 +1,13 @@
 package com.example.alimama.Model;
 
 public class Product {
-    private  String name,price,description,image,pid,category,date,time;
-    public Product()
-    {
+    private String name, price, description, image, pid, category, date, time, productStatus;
+
+    public Product() {
 
     }
 
-    public Product(String name, String price, String description, String image, String pid, String category, String date, String time) {
+    public Product(String name, String price, String description, String image, String pid, String category, String date, String time, String productStatus) {
         this.name = name;
         this.price = price;
         this.description = description;
@@ -16,6 +16,7 @@ public class Product {
         this.category = category;
         this.date = date;
         this.time = time;
+        this.productStatus = productStatus;
     }
 
     public String getName() {
@@ -81,4 +82,13 @@ public class Product {
     public void setTime(String time) {
         this.time = time;
     }
+
+    public String getProductStatus() {
+        return productStatus;
+    }
+
+    public void setProductStatus(String productStatus) {
+        this.productStatus = productStatus;
+    }
 }
+

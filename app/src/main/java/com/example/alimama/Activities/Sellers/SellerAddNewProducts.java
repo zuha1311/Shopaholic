@@ -217,7 +217,7 @@ public class SellerAddNewProducts extends AppCompatActivity {
         productMap.put("sellerEmail",sEmail);
         productMap.put("sellerPhone",sPhone);
         productMap.put("sellerId",sID);
-        productMap.put("product status", "NOT_APPROVED");
+        productMap.put("productStatus", "NOT_APPROVED");
 
         productsRef.child(productRandomKey).updateChildren(productMap)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
