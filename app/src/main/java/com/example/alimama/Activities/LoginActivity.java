@@ -14,8 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.alimama.Activities.Admin.AdminHomeActivity;
-import com.example.alimama.Activities.Sellers.SellerCategoryActivity;
-import com.example.alimama.Activities.Buyer.DrawerActivity;
+import com.example.alimama.Activities.Buyer.HomeActivity;
 import com.example.alimama.Activities.Buyer.ForgotPasswordActivity;
 import com.example.alimama.Model.Users;
 import com.example.alimama.Prevalent.Prevalent;
@@ -145,7 +144,7 @@ public class LoginActivity extends AppCompatActivity {
                                 {
                                     Toast.makeText(LoginActivity.this,"Logged in Successfully", Toast.LENGTH_SHORT).show();
                                     loadingBar.dismiss();
-                                    Intent intent = new Intent(LoginActivity.this, DrawerActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                                     Prevalent.currentOnlineUser = usersData;
                                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                     startActivity(intent);

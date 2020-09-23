@@ -27,9 +27,6 @@
         <activity android:name=".Activities.Buyer.ForgotPasswordActivity" />
         <activity android:name=".Activities.Admin.AdminMaintainProductsActivity" />
         <activity android:name=".Activities.Buyer.SearchActivity" />
-        <activity
-            android:name=".Activities.Buyer.DrawerActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activities.Admin.AdminUserProductsActivity" />
         <activity android:name=".Activities.Admin.AdminNewOrdersActivity" />
         <activity android:name=".Activities.Buyer.ConfirmFinalOrderActivity" />

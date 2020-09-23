@@ -70,7 +70,7 @@ public class SellerRegistrationActivity extends AppCompatActivity {
         final String email = emailInput.getText().toString();
         final String address = addressInput.getText().toString();
 
-        if(!name.equals("") && (!mobile.equals("")) && (!password.equals("")) && (email.equals("")) &&(address.equals("")))
+        if(!name.equals("") && (!mobile.equals("")) && (!password.equals("")) && (!email.equals("")) &&(!address.equals("")))
         {
 
             progressDialog.setTitle("Creating Account");

@@ -49,6 +49,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
    private String type = "";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -118,9 +119,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 R.id.nav_cart, R.id.nav_orders, R.id.nav_categories,R.id.nav_settings,R.id.nav_logout)
                 .setDrawerLayout(drawer)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
+
 
     }
 
@@ -184,12 +183,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -228,12 +222,17 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         }
         else if(id==R.id.nav_categories)
+
         {
 
         }
         else if(id==R.id.nav_settings)
         {
-
+            if(!type.equals("Admin"))
+            {
+                Intent intent = new Intent(HomeActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
 
 
         }

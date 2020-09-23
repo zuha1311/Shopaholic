@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         join = (Button)findViewById(R.id.main_join_now_btn);
         login = (Button)findViewById(R.id.main_login_btn);
         loadingBar = new ProgressDialog(this);
+        seller = findViewById(R.id.seller);
 
         Paper.init(this);
 
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-        if(!firebaseUser.equals(""))
+        if(firebaseUser!=null)
         {
             Intent intent =new Intent(MainActivity.this, SellerHomeActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
